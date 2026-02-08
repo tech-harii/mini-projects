@@ -1,7 +1,7 @@
 import csv
 
-FILE_NAME = "passwords.csv"
-KEY = 3  # encryption shift value (CAN BE CHANGED)
+FILE_NAME = "_passwords_.csv"
+KEY = 3  # encryption shift value || PLANNING TO CHANGE IT SO THAT THE USER CAN HAVE A 'CUSTOM-KEY' IN THE FUTURE :) 
 
 # ENCRYPTION FUNCTION
 def encrypt(text):
@@ -88,7 +88,7 @@ def main():
             input_platform = input("Enter platform name to update: ")
             update_password()
         elif choice == "4":
-            print("Exiting program...")
+            print("Program Quit")
             break
         else:
             print("Invalid choice!")
